@@ -30,7 +30,7 @@ set body "[ad_header $instance_name]
 [ad_context_bar]
 <hr>
 
-<form method=post action=content-update.tcl>
+<form method=post action=\"content-update\">
 
 <table align=center>
 
