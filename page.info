@@ -17,18 +17,8 @@
         <release-date>2002-05-15</release-date>
         <vendor url="http://www.openacs.org/">OpenACS</vendor>
 
-        <requires url="acs-kernel" version="4.0b2"/>
+        <requires url="acs-kernel" version="4.6.2"/>
 
-        <files>
-            <file type="package_spec" path="page.info"/>
-            <file type="data_model_create" db_type="oracle" path="sql/oracle/page-create.sql"/>
-            <file type="data_model_drop" db_type="oracle" path="sql/oracle/page-drop.sql"/>
-            <file type="data_model_create" db_type="postgresql" path="sql/postgresql/page-create.sql"/>
-            <file type="data_model_drop" db_type="postgresql" path="sql/postgresql/page-drop.sql"/>
-            <file type="content_page" path="www/admin/content-update.tcl"/>
-            <file type="content_page" path="www/admin/index.tcl"/>
-            <file type="content_page" path="www/index.tcl"/>
-        </files>
         <parameters>
         <!-- No version parameters -->
         </parameters>
