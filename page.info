@@ -5,6 +5,7 @@
     <package-name>Page</package-name>
     <pretty-plural>Pages</pretty-plural>
     <singleton-p>f</singleton-p>
+    <initial-install-p>t</initial-install-p>
 
     <version name="4.0" url="http://www.arsdigita.com/acs-repository/download/apm/page-4.0.apm">
     <database-support>
