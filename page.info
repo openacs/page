@@ -7,9 +7,10 @@
     <singleton-p>f</singleton-p>
 
     <version name="4.0" url="http://www.arsdigita.com/acs-repository/download/apm/page-4.0.apm">
-        <database-support>
-             <database>oracle-8.1.6</database>
-        </database-support>
+    <database-support>
+        <database>oracle</database>
+        <database>postgresql</database>
+    </database-support>
         <owner url="mailto:rhs@mit.edu">Rafael Schloming</owner>
         <summary>Creates a page.</summary>
         <vendor url="http://www.arsdigita.com/">ArsDigita Corporation</vendor>
@@ -18,7 +19,7 @@
 
         <files>
             <file type="package_spec" path="page.info"/>
-            <file type="data_model_create" path="sql/page-create.sql"/>
+            <file type="data_model_create" db_type="oracle" path="sql/oracle/page-create.sql"/>
             <file type="content_page" path="www/admin/content-update.tcl"/>
             <file type="content_page" path="www/admin/index.tcl"/>
             <file type="content_page" path="www/index.tcl"/>
