@@ -1,5 +1,4 @@
 # packages/page/www/index.tcl
-
 ad_page_contract {
 
   @author rhs@mit.edu
@@ -35,19 +34,9 @@ if {[db_0or1row content {
 if {[llength $controls] > 0} {
   set control_html "\[ [join $controls " | "] \]"
 } else {
-  set control_html "&nbsp;"
+    set control_html {}
 }
 
-set body "[ad_header $instance_name]
-
-<h2>$instance_name</h2>
-
-<table width=100%><tr><td>[ad_context_bar]</td><td align=right>$control_html</td></table>
-<hr>
-
-$content
-
-[ad_footer]
-"
+set body [template::adp_include /packages/page/lib/one-page [list title $instance_name content $content control_html $control_html]]
 
 doc_return 200 text/html $body
