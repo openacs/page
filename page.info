@@ -4,7 +4,7 @@
 <package key="page" url="http://www.arsdigita.com/acs-repository/apm/packages/page/" type="apm_application">
     <package-name>Page</package-name>
     <pretty-plural>Pages</pretty-plural>
-    <initial-install-p>t</initial-install-p>
+    <initial-install-p>f</initial-install-p>
     <singleton-p>f</singleton-p>
 
     <version name="4.5" url="http://www.openacs.org/repository/download/apm/page-4.5.apm">
