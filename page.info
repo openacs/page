@@ -7,14 +7,15 @@
     <initial-install-p>t</initial-install-p>
     <singleton-p>f</singleton-p>
 
-    <version name="4.0" url="http://www.arsdigita.com/acs-repository/download/apm/page-4.0.apm">
+    <version name="4.5" url="http://www.openacs.org/repository/download/apm/page-4.5.apm">
     <database-support>
         <database>oracle</database>
         <database>postgresql</database>
     </database-support>
-        <owner url="mailto:rhs@mit.edu">Rafael Schloming</owner>
+        <owner>Rafael Schloming</owner>
         <summary>Creates a page.</summary>
-        <vendor url="http://www.arsdigita.com/">ArsDigita Corporation</vendor>
+        <release-date>2002-05-15</release-date>
+        <vendor url="http://www.openacs.org/">OpenACS</vendor>
 
         <requires url="acs-kernel" version="4.0b2"/>
 
