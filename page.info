@@ -13,9 +13,10 @@
         <database>postgresql</database>
     </database-support>
         <owner>Rafael Schloming</owner>
-        <summary>Creates a page.</summary>
+        <summary>Minimal site node package</summary>
         <release-date>2002-05-15</release-date>
         <vendor url="http://www.openacs.org/">OpenACS</vendor>
+        <description format="text/html">a minimal package which exists primarily as a site-node placeholder for a path component (so that the context bar can be properly constructed</description>
 
         <requires url="acs-kernel" version="4.6.2"/>
 
