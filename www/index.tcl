@@ -14,7 +14,7 @@ db_1row instance_name {
   where package_id = :package_id
 }
 
-set controls {}
+set controls [list]
 
 if {[db_0or1row content {
   select content
